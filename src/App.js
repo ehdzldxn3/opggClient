@@ -9,7 +9,7 @@ function App() {
     <BrowserRouter>
       
       <NavBar />
-      <div style={{ paddingTop: '80px',}}>
+      {/* <div style={{ paddingTop: '80px',}}> */}
         
       <Routes>
            
@@ -18,7 +18,7 @@ function App() {
 
 
       </Routes>
-      </div>
+      {/* </div> */}
     </BrowserRouter>
 
   );
