@@ -3,20 +3,7 @@ import { Nav } from 'react-bootstrap'
 
 function NavBar() {
     return (
-    //     <AppBar position="static" color='inherit'>
-    //     <Container maxWidth="xl">
-    //       <Toolbar disableGutters>
-    //         <Typography
-    //           variant="h6"
-    //           noWrap
-    //           component="div"
-    //           sx={{ mr: 2, display: { xs: 'none', md: 'flex' } }}
-    //         >
-    //           LOGO
-    //         </Typography>
-    //       </Toolbar>
-    //     </Container>
-    //   </AppBar>
+
 
         <div  style={{backgroundColor : '#5383E8'}}>
             <h1 style={{display:'flex', position: 'relative', color:'white', paddingLeft:'2vh'}}>
