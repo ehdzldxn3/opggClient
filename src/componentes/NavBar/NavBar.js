@@ -1,37 +1,46 @@
 import React from 'react';
+import styles from './NavBar.module.css'
 import { Nav } from 'react-bootstrap'
 
 function NavBar() {
     return (
-
-
-        <div  style={{backgroundColor : '#5383E8'}}>
-            <h1 style={{display:'flex', position: 'relative', color:'white', paddingLeft:'2vh'}}>
-                LEAGUE of LEGENDS OP.GG Clone
+        <div className={styles.back}>
+            <h1 className={styles.header}>
+                League of Legends OP.GG Clone
             </h1>
-            <Nav style={{justifyContent: 'start', display:'flex'}}>
+            <Nav className={styles.nav}>
                 <Nav.Item>
-                    <Nav.Link href="/" style={{}}>
-                        <p style={{color: 'white', }}>홈</p>
+                    <Nav.Link href="/">
+                        <p className={styles.p}>홈</p>
                     </Nav.Link>
                 </Nav.Item>
                 <Nav.Item>
-                    <Nav.Link href="/"><p style={{color: 'white'}}>챔피언분석</p></Nav.Link>
+                    <Nav.Link href="/">
+                        <p className={styles.p}>챔피언분석</p>
+                    </Nav.Link>
                 </Nav.Item>
                 <Nav.Item>
-                    <Nav.Link href="/"><p style={{color: 'white'}}>칼바람</p></Nav.Link>
+                    <Nav.Link href="/">
+                        <p className={styles.p}>칼바람</p>
+                    </Nav.Link>
                 </Nav.Item>
                 <Nav.Item>
-                    <Nav.Link href="/"><p style={{color: 'white'}}>우르프</p></Nav.Link>
+                    <Nav.Link href="/">
+                        <p className={styles.p}>우르프</p>
+                    </Nav.Link>
                 </Nav.Item>
                 <Nav.Item>
-                    <Nav.Link href="/"><p style={{color: 'white'}}>통계</p></Nav.Link>
+                    <Nav.Link href="/">
+                        <p className={styles.p}>통계</p>
+                    </Nav.Link>
                 </Nav.Item>
                 <Nav.Item>
-                    <Nav.Link href="/"><p style={{color: 'white'}}>랭킹</p></Nav.Link>
+                    <Nav.Link href="/">
+                        <p className={styles.p}>랭킹</p>
+                    </Nav.Link>
                 </Nav.Item>
             </Nav>
-            <div style={{backgroundColor: '#2F5EC0', minheight: '4vh', justifyContent:'center', display:'flex'}}>
+            <div className={styles.bottom}>
                 이용약관이 어쩌고 저쩌고
             </div>
         </div>          

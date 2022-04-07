@@ -1,0 +1,28 @@
+.back{
+    background-color : #5383E8;
+}
+
+.header {
+    display: flex;
+    position: relative;
+    color: white;
+    padding-left: 2vh; 
+}
+
+.nav{
+    justify-content: start;
+    display: flex;
+    padding-left: 5%;
+}
+
+.p {
+    color: white;
+}
+
+.bottom {
+    background-color: #2F5EC0;
+    min-height: 4vh;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
