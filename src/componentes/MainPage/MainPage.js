@@ -7,18 +7,13 @@ import btn from './btn.png'
 
 
 
-
 function MainPage() {
 
-  const [SearchFocus, setSearchFocus] = useState(false)
 
 
-  const searchFocusEvent = (e) => {
-    console.log('포커스 들어옴')
-    setSearchFocus(true)
-  }
+
   return (
-    
+
     <div className={styles.main}>
 
       {/* 메인화면 이미지 */}
@@ -28,19 +23,18 @@ function MainPage() {
 
       {/* 검색창  */}
       <div className={styles.searchDiv}>
-      <div className={styles.search}>
-        <form className={styles.search}>
-          <input type='text' className={styles.searchText} placeholder='소환사명...'
-            onFocus={searchFocusEvent}
-          />
-          <button type='submit' className={styles.searchBtn}>
-            <img src={btn} className={styles.searchImg}/>
-          </button>
-        </form>
-      </div>
-      {
-      
-      }
+        <div className={styles.search}>
+          <form className={styles.search}>
+            <input type='text' className={styles.searchText} placeholder='소환사명...'
+            />
+            <button type='submit' className={styles.searchBtn}>
+              <img src={btn} className={styles.searchImg} />
+            </button>
+          </form>
+        </div>
+        {
+
+        }
       </div>
 
       <div>

@@ -1,5 +1,6 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import NavBar from "./componentes/NavBar/NavBar";
+import SecondNavBar from './componentes/SecondNavBar/SecondNavBar'
 import MainPage from './componentes/MainPage/MainPage'
 
 
@@ -9,7 +10,7 @@ function App() {
     <BrowserRouter>
       
       <NavBar />
-      {/* <div style={{ paddingTop: '80px',}}> */}
+      <SecondNavBar/>
         
       <Routes>
            

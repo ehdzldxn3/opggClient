@@ -1,0 +1,25 @@
+.div {
+    display: flex;
+    justify-content: center;
+    height: 48px;
+    background-color: #5383E8;
+    border-bottom: 1px solid #4171d6;
+    box-sizing: border-box;
+}
+.nav {
+    position: relative;
+    display: flex;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.ul {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
