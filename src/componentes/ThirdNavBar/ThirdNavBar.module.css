@@ -1,0 +1,14 @@
+.div {
+    display: flex;
+    justify-content: center;
+    height: 30px;
+    background: rgba(0, 0, 0, 0.5);
+    align-items: center;
+    background-color: #2F5EC0;
+}
+
+.a {
+    color: #FFF;
+    font-size: small;
+    text-decoration: none;
+}
