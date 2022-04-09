@@ -7,7 +7,10 @@ function SecondNavBar() {
         <nav className={styles.nav}>
             <ul className={styles.ul}>
                 <li className={styles.li}>
-
+                  <a href='/' className={styles.a}>홈</a>
+                </li>
+                <li className={styles.li}>
+                  <a href='/' className={styles.a}>칼바람</a>
                 </li>
             </ul>
         </nav>
