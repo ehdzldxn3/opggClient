@@ -3,6 +3,7 @@ import NavBar from "./componentes/NavBar/NavBar";
 import SecondNavBar from './componentes/SecondNavBar/SecondNavBar'
 import ThirdNavBar from './componentes/ThirdNavBar/ThirdNavBar'
 import MainPage from './componentes/MainPage/MainPage'
+import Summoners from './componentes/Summoners/Summoners'
 
 
 function App() {
@@ -18,10 +19,11 @@ function App() {
            
         {/* 메인페이지 */}
         <Route path='/' element={<MainPage/>} />
+        {/* 소환사정보 */}
+        <Route path='/summoners' element={<Summoners/>} />
 
 
       </Routes>
-      {/* </div> */}
     </BrowserRouter>
 
   );
