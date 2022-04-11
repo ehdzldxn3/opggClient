@@ -40,14 +40,14 @@
 .face span {
     position: absolute;
     top: 100%;
-    left: 50%;
+    left: 80%;
     margin-top: -14px;
     margin-left: -22px;
     width: 44px;
     height: 24px;
     padding-top: 3px;
     box-sizing: border-box;
-    /* background: url(https://s-lol-web.op.gg/static/images/site/summoner/bg-levelbox.png); */
+    background: url('./levelbox.png');
     background-size: 100%;
     line-height: 17px;
     font-family: Helvetica,AppleSDGothic,"Apple SD Gothic Neo",AppleGothic,Arial,Tahoma;
