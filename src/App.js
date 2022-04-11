@@ -20,7 +20,7 @@ function App() {
         {/* 메인페이지 */}
         <Route path='/' element={<MainPage/>} />
         {/* 소환사정보 */}
-        <Route path='/summoners' element={<Summoners/>} />
+        <Route path='/summoners/:nickName' element={<Summoners/>} />
 
 
       </Routes>

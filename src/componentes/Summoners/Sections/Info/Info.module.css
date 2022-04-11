@@ -1,0 +1,57 @@
+.infoD {
+    position: relative;
+    width: 100vh;
+    margin: 1px auto;
+    padding: 20px 0px 0px;
+}
+
+.info ul {
+    margin-top: -5px;
+    margin-left: 5px;
+    padding-left: 30px;
+    padding-bottom: 15px;
+}
+
+.info li {
+    display: inline-block;
+    padding: 3px 4px 2px;
+    margin-right: 7px;
+    background: rgb(224, 227, 227);
+    color: rgb(101, 112, 112);
+    font-size: 11px;
+    border: 1px solid rgb(206, 211, 211);
+    border-radius: 3px;
+    text-transform: capitalize;
+}
+
+.face div{
+    display: inline-block;
+    width: 100px;
+    padding-left: 30px;
+    vertical-align: top;
+}
+
+.face img {
+    display: block;
+    width: 100px;
+    height: 100px;
+}
+
+.face span {
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-top: -14px;
+    margin-left: -22px;
+    width: 44px;
+    height: 24px;
+    padding-top: 3px;
+    box-sizing: border-box;
+    /* background: url(https://s-lol-web.op.gg/static/images/site/summoner/bg-levelbox.png); */
+    background-size: 100%;
+    line-height: 17px;
+    font-family: Helvetica,AppleSDGothic,"Apple SD Gothic Neo",AppleGothic,Arial,Tahoma;
+    font-size: 14px;
+    text-align: center;
+    color: #eabd56;
+}
