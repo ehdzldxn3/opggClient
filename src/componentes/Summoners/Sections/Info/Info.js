@@ -39,8 +39,13 @@ function Info(props) {
         <img className={styles.face}
 
          src={info.resPart1.profileIconUrl} alt={'아 없다고합니다.'}/>
-        <span className={styles.face} style={{background: {}}}>{info.resPart1.summonerLevel}</span>        
+        <span className={styles.face}>{info.resPart1.summonerLevel}</span>        
         </div>
+      </div>
+
+      {/* 이름 & 전적갱신  */}
+      <div className={styles.profile}>
+
       </div>
 
     </div>
