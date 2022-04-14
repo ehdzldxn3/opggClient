@@ -1,8 +1,9 @@
 .infoD {
     position: relative;
-    width: 100vh;
-    margin: 1px auto;
+    width: 1000px;
+    margin: 0px auto;
     padding: 20px 0px 0px;
+    display: block;
 }
 
 .info ul {
@@ -24,23 +25,37 @@
     text-transform: capitalize;
 }
 
-.face div{
+.faceD {
     display: inline-block;
     width: 100px;
     padding-left: 30px;
     vertical-align: top;
 }
 
-.face img {
+.face_icon {
+    position: relative;
+    display: block;
+}
+
+.face_border_image {
+    position: absolute;
+    left: -10px;
+    top: -10px;
+    width: 120px;
+    height: 120px;
+    background-position: center bottom;
+    background-repeat: no-repeat;
+}
+.face_img {
     display: block;
     width: 100px;
     height: 100px;
 }
 
-.face span {
+.faceS {
     position: absolute;
     top: 100%;
-    left: 80%;
+    left: 70%;
     margin-top: -14px;
     margin-left: -22px;
     width: 44px;
@@ -56,11 +71,88 @@
     color: #eabd56;
 }
 
-.profile div {
+/* profile */
+.profileD {
     position: relative;
     display: inline-block;
     height: 100px;
-    margin: 0px 25px 0px 29px;
+    margin: 0px 25px 0px 50px;
     vertical-align: top;
     line-height: 1.1;
+}
+
+.profileI {
+    display: block;
+}
+
+.profileS {
+    color: rgb(36, 41, 41);
+    font-size: 20px;
+    font-weight: bold;
+    margin-right: 4px;
+    vertical-align: middle;
+}
+
+.profileB {
+    margin-left: 4px;
+    vertical-align: 1px;
+    text-decoration: none;
+    color: rgb(119, 119, 119);
+    display: inline-block;
+    border: 1px solid rgb(198, 203, 203);
+    border-radius: 3px;
+    padding: 3px 5px;
+    font-size: 10px;
+    background: transparent;
+    cursor: pointer;
+    margin: 0px;
+}
+
+.profileIMG {
+    vertical-align: middle;
+    zoom: 0.7;
+    margin-right: 4px;
+}
+
+.profileR {
+    color: rgb(85, 94, 94);
+    font-size: 11px;
+    text-decoration: none;
+    line-height: 1.5;
+    margin-bottom: 5px;
+}
+.profileRS {
+    color: rgb(5, 158, 222);
+    font-weight: bold;
+}
+
+.profileBtn{
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    font-size: 0px;
+    margin: 15px 0px -6px;
+    white-space: nowrap;
+}
+
+.profileRB{
+    position: relative;
+    border: 1px solid #1a78ae;
+    background: #1f8ecd;
+    color: #f2f2f2;
+    padding: 11px 14px 10px;
+    border-radius: 2px;
+    font-size: 14px;
+    margin: 0 6px 6px 0;
+}
+
+.profileTG{
+    border: 1px solid #ccd1d1;
+    background: #f2f2f2;
+    color: #242929;
+    padding: 11px 14px 10px;
+    border-radius: 2px;
+    font-size: 14px;
+    margin: 0 6px 6px 0;
 }
