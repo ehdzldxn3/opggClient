@@ -31,7 +31,7 @@ function Summoners() {
       "ladderRanking": "1954803",
 
       //소환사 닉네임
-      "name": "초코잠보",
+      "name": "하리바리",
 
       //소환사 레벨  
       "summonerLevel": 234,
@@ -61,6 +61,10 @@ function Summoners() {
       "img": "https://opgg-static.akamaized.net/images/medals/silver_3.png?image=q_auto&image=q_auto,f_webp,w_auto&v=1650333355280",
       "tier" : 'Silver',
       'tierRank' : '3',
+      'lp' : '50',
+      'win' : '25',
+      'lose' : '10',
+      'winPer' : '55', 
     },
     //통신 여부
     "message": "SUCCESS",
