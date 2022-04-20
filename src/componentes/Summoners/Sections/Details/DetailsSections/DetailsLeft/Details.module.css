@@ -1,0 +1,7 @@
+.DL {
+    display: inline-block;
+    width: 300px;
+    font-size: 12px;
+    vertical-align: top;
+    min-height: 870px;
+}

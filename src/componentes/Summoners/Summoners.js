@@ -3,13 +3,13 @@ import styles from './Summoners.module.css'
 import { useParams } from 'react-router';
 import axios from 'axios';
 import Info from './Sections/Info/Info'
+import Details from './Sections/Details/Details';
 
 function Summoners() {
 
   //주소창에 있는 파람
   const params = useParams();
 
-  const [first, setfirst] = useState(second) 
 
   // const [info, setinfo] = useState({})
 
@@ -52,6 +52,15 @@ function Summoners() {
         "tier": "silver",
         "season": 2021,
       },
+
+
+
+    },
+    "soloRank": 
+    {
+      "img": "https://opgg-static.akamaized.net/images/medals/silver_3.png?image=q_auto&image=q_auto,f_webp,w_auto&v=1650333355280",
+      "tier" : 'Silver',
+      'tierRank' : '3',
     },
     //통신 여부
     "message": "SUCCESS",
@@ -77,9 +86,7 @@ function Summoners() {
   return (
     <div style={{background: '#ebeef1', height: '100vh',  }}>
         <Info info={info} summonersRefresh={summonersRefresh}/>
-        <div>
-          다른화면
-        </div>
+        <Details info={info}/>
     </div>
   )
 
