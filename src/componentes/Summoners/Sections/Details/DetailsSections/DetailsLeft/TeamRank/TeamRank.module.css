@@ -1,0 +1,56 @@
+.tr {
+    margin-top: 10px;
+    border: 1px solid rgb(205, 210, 210);
+    box-shadow: rgb(220 223 223) 0px 1px;
+    background: rgb(242, 242, 242);
+    border-radius: 2px;
+}
+
+.tr2 {
+    display: table;
+    width: 100%;
+    color: rgb(135, 146, 146);
+    position: relative;
+    background-color: rgb(242, 242, 242);
+    padding: 8px 0px;
+}
+
+.Medal {
+    display: table-cell;
+    vertical-align: middle;
+    width: 120px;
+    height: 82px;
+    text-align: center;
+}
+
+.trImg {
+    width: 64px;
+    height: 64px;
+    margin: -15px 0px -10px;
+}
+
+.info{
+    display: table-cell;
+    vertical-align: middle;
+    font-size: 12px;
+    line-height: 1.3;
+    text-align: left;
+}
+
+.type {
+    font-size: 11px;
+    color: rgb(135, 146, 146);
+}
+
+.tier_rank {
+    font-size: 13px;
+    font-weight: bold;
+    text-transform: capitalize;
+    color: rgb(31, 142, 205);
+}
+
+.lp {
+    color: rgb(85, 94, 94);
+    font-weight: bold;
+}
+

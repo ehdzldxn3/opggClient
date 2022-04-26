@@ -7,10 +7,7 @@ import styles from './SoloRank.module.css'
 function SoloRank(props) {
 
     const sr = props.soloRank;
-    console.log(props)
 
-    console.log('SoloRank')
-    console.log(sr)
   
   return (
     
@@ -28,12 +25,12 @@ function SoloRank(props) {
             <div className={styles.info1}>솔로랭크</div>
             <div className={styles.info2}>{sr.tier} {sr.tierRank}</div>
             <div>
-              <span style={{color : 'rgb(85, 94, 94)', fontWeight: 'bold'}}>{sr.lp}LP </span>
+              <span style={{color : 'rgb(85, 94, 94)', fontWeight: 'bold'}}>{sr.lp} LP  </span>
               / 
               <span>
                 {' '+sr.win}승  {sr.lose}패
                 <br/>
-                승률{sr.winPer}%
+                승률 {sr.winPer}%
               </span>
             </div>
             <div>
